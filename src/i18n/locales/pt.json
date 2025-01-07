@@ -24,5 +24,26 @@
       "status": "Status",
       "submit": "Salvar"
     }
+  },
+  "financial": {
+    "title": "Gestão Financeira",
+    "dashboard": {
+      "totalIncome": "Receita Total",
+      "totalExpenses": "Despesas Totais",
+      "balance": "Saldo",
+      "recentTransactions": "Transações Recentes"
+    },
+    "transactions": {
+      "add": "Adicionar Transação",
+      "list": "Lista de Transações",
+      "type": "Tipo",
+      "income": "Receita",
+      "expense": "Despesa",
+      "description": "Descrição",
+      "amount": "Valor",
+      "date": "Data",
+      "category": "Categoria",
+      "status": "Status"
+    }
   }
 }

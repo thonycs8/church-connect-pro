@@ -24,5 +24,26 @@
       "status": "Status",
       "submit": "Save"
     }
+  },
+  "financial": {
+    "title": "Financial Management",
+    "dashboard": {
+      "totalIncome": "Total Income",
+      "totalExpenses": "Total Expenses",
+      "balance": "Balance",
+      "recentTransactions": "Recent Transactions"
+    },
+    "transactions": {
+      "add": "Add Transaction",
+      "list": "Transactions List",
+      "type": "Type",
+      "income": "Income",
+      "expense": "Expense",
+      "description": "Description",
+      "amount": "Amount",
+      "date": "Date",
+      "category": "Category",
+      "status": "Status"
+    }
   }
 }
