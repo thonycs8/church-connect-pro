@@ -1,4 +1,10 @@
 {
+  "common": {
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "edit": "Editar",
+    "delete": "Excluir"
+  },
   "members": {
     "title": "Gestão de Membros",
     "add": "Adicionar Membro",
@@ -22,7 +28,9 @@
       "birthDate": "Data de Nascimento",
       "baptismDate": "Data de Batismo",
       "status": "Status",
-      "submit": "Salvar"
+      "submit": "Salvar",
+      "success": "Membro salvo com sucesso!",
+      "error": "Erro ao salvar membro."
     }
   },
   "financial": {

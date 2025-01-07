@@ -1,4 +1,10 @@
 {
+  "common": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
   "members": {
     "title": "Member Management",
     "add": "Add Member",
@@ -22,7 +28,9 @@
       "birthDate": "Birth Date",
       "baptismDate": "Baptism Date",
       "status": "Status",
-      "submit": "Save"
+      "submit": "Save",
+      "success": "Member saved successfully!",
+      "error": "Error saving member."
     }
   },
   "financial": {
