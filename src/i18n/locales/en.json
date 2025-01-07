@@ -1,0 +1,28 @@
+{
+  "members": {
+    "title": "Member Management",
+    "add": "Add Member",
+    "list": "Members List",
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "address": {
+        "title": "Address",
+        "street": "Street",
+        "number": "Number",
+        "complement": "Complement",
+        "parish": "Parish",
+        "county": "County",
+        "district": "District",
+        "postalCode": "Postal Code",
+        "country": "Country"
+      },
+      "birthDate": "Birth Date",
+      "baptismDate": "Baptism Date",
+      "status": "Status",
+      "submit": "Save"
+    }
+  }
+}

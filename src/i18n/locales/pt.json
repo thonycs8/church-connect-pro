@@ -1,0 +1,28 @@
+{
+  "members": {
+    "title": "Gestão de Membros",
+    "add": "Adicionar Membro",
+    "list": "Lista de Membros",
+    "form": {
+      "firstName": "Nome",
+      "lastName": "Sobrenome",
+      "email": "E-mail",
+      "phone": "Telefone",
+      "address": {
+        "title": "Endereço",
+        "street": "Rua",
+        "number": "Número",
+        "complement": "Complemento",
+        "parish": "Freguesia",
+        "county": "Concelho",
+        "district": "Distrito",
+        "postalCode": "Código Postal",
+        "country": "País"
+      },
+      "birthDate": "Data de Nascimento",
+      "baptismDate": "Data de Batismo",
+      "status": "Status",
+      "submit": "Salvar"
+    }
+  }
+}
