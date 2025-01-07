@@ -1,5 +1,6 @@
 import { Home, Users, Calendar, DollarSign, Video, MessageSquare, Settings } from "lucide-react";
 import { Link } from "react-router-dom";
+import { ThemeToggle } from "./ThemeToggle";
 
 export const Sidebar = () => {
   const menuItems = [
@@ -13,9 +14,10 @@ export const Sidebar = () => {
   ];
 
   return (
-    <div className="h-screen w-64 bg-white border-r border-gray-200 flex flex-col">
-      <div className="p-4 border-b border-gray-200">
-        <h1 className="text-2xl font-bold text-primary-800">Igreja CRM</h1>
+    <div className="h-screen w-64 bg-background border-r border-border flex flex-col">
+      <div className="p-4 border-b border-border flex items-center justify-between">
+        <h1 className="text-2xl font-bold text-foreground">Igreja CRM</h1>
+        <ThemeToggle />
       </div>
       <nav className="flex-1 p-4">
         <ul className="space-y-2">
@@ -23,7 +25,7 @@ export const Sidebar = () => {
             <li key={item.path}>
               <Link
                 to={item.path}
-                className="flex items-center space-x-3 p-2 rounded-lg hover:bg-primary-100 text-gray-700 hover:text-primary-800"
+                className="flex items-center space-x-3 p-2 rounded-lg hover:bg-accent text-foreground hover:text-accent-foreground"
               >
                 <item.icon className="w-5 h-5" />
                 <span>{item.label}</span>
