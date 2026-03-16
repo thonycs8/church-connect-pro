@@ -1,4 +1,4 @@
-import { Home, Users, Calendar, DollarSign, Video, MessageSquare, Settings, BookOpen } from "lucide-react";
+import { Home, Users, UserPlus, BookOpen, Calendar, HandHelping, DollarSign, Video, MessageSquare, Settings, Newspaper } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
 import { useLocation } from "react-router-dom";
 import { ThemeToggle } from "./ThemeToggle";
@@ -19,11 +19,14 @@ import {
 const menuItems = [
   { icon: Home, label: "Dashboard", path: "/" },
   { icon: Users, label: "Membros", path: "/members" },
+  { icon: UserPlus, label: "Visitantes", path: "/visitors" },
+  { icon: BookOpen, label: "Discipulado", path: "/discipleship" },
   { icon: Calendar, label: "Eventos", path: "/events" },
+  { icon: HandHelping, label: "Voluntários", path: "/volunteers" },
   { icon: DollarSign, label: "Financeiro", path: "/financial" },
   { icon: Video, label: "Mídia", path: "/media" },
   { icon: MessageSquare, label: "Chat", path: "/chat" },
-  { icon: BookOpen, label: "Blog", path: "/blog" },
+  { icon: Newspaper, label: "Blog", path: "/blog" },
   { icon: Settings, label: "Configurações", path: "/settings" },
 ];
 
